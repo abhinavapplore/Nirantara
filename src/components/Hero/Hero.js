@@ -8,16 +8,16 @@ const Hero = () => {
 
         <div className={styles.left}>
           <div className={styles.heading}>
-            SUSTAINABILITY
+            SUSTAINING
             <br />
-            SIMPLIFIED
+            SUSTAINABILITY
 
             <div className={styles.left_subheading}>
               Embark on your ESG Journey and stay ahead of the curve and measure to manage your sustainability outcomes.
             </div>
           </div>
 
-          <div className={styles.left_button} id='section1'>
+          <div className={styles.left_button} id='about'>
             LEARN MORE
           </div>
         </div>
@@ -30,18 +30,22 @@ const Hero = () => {
               <br />
               Outcome
             </div>
-            <div className={styles.right_count}>1. Regularity</div>
-            <div className={styles.right_count}>2. Ratings</div>
-            <div className={styles.right_count}>3. Reporting</div>
-            <div className={styles.right_count}>4. Reputation</div>
+            <div className={styles.right_count}>1.
+              <span style={{ color: "grey" }}>Regularity</span>
+            </div>
+            <div className={styles.right_count}>2.
+              <span style={{ color: "grey" }}>Ratings</span>
+            </div>
+            <div className={styles.right_count}>3.
+              <span style={{ color: "grey" }}>Reporting</span>
+            </div>
+            <div className={styles.right_count}>4.
+              <span style={{ color: "grey" }}>Reputation</span>
+            </div>
           </div>
         </div>
 
       </div>
-
-      {/* <div className={styles.green_box}>
-        green
-      </div> */}
     </>
   )
 }

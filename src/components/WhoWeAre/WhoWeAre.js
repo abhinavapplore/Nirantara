@@ -13,7 +13,7 @@ const WhoWeAre = () => {
                     </div>
                     <div className={styles.right}>
                         <div className={styles.right_main}>
-                            <div className={styles.heading}>Who we are</div>
+                            <div className={styles.heading}>INTRODUCTION</div>
                             <div className={styles.sub_heading}>
                                 Nirantara offers the much-needed empowerment in sustainability thinking, strategy and practice. Sustainability/ESG agendas are growing strong across the world today, and at the same time, presenting organizations with a pressing set of challenges as well as opportunities, as they aspire for future leadership.
                             </div>
@@ -30,7 +30,7 @@ const WhoWeAre = () => {
                     </div>
                     <div className={styles.right}>
                         <div className={styles.right_main}>
-                            <div className={styles.heading}>Who we are</div>
+                            <div className={styles.heading}>INTRODUCTION</div>
                             <div className={styles.sub_heading}>
                                 Nirantara offers the much-needed empowerment in sustainability thinking, strategy and practice. Sustainability/ESG agendas are growing strong across the world today, and at the same time, presenting organizations with a pressing set of challenges as well as opportunities, as they aspire for future leadership.
                             </div>

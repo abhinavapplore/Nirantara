@@ -1,3 +1,5 @@
+"use client"
+
 import HomeScreen from '@/screens/HomeScreen'
 // import Image from 'next/image'
 

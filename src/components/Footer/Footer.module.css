@@ -56,27 +56,30 @@
         margin-top: 10px;
         padding: 0;
     }
-
+    
     .footer_subline {
         width: max-content;
         font-size: 15px;
         padding: 20px 0;
         margin: auto;
     }
-
+    
     .footer_icons {
         width: 100%;
         display: flex;
+        /* text-align: ; */
         justify-content: center;
         padding: 20px;
     }
-
+    
     .footer_links {
         padding-top: 50px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         width: 100%;
         text-align: left;
+        /* border: 2px solid lime; */
     }
 
     .link {

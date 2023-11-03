@@ -1,5 +1,5 @@
 .container {
-    background: url('../../../public/images/jungle.svg');
+    background: url('../../../public/images/jungle_new.svg');
     background-position: bottom;
     background-repeat: no-repeat;
     height: 100vh;
@@ -10,7 +10,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    /* background-color: black; */
     /* margin: auto; */
 }
 
@@ -71,6 +70,10 @@
     font-size: 21px;
     word-spacing: 20px;
 }
+.right_count span{
+    /* word-spacing: 20px; */
+    margin-left: 20px;
+}
 
 
 @media (max-width:600px) {
@@ -91,6 +94,11 @@
     .left,
     .right {
         width: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        /* border: 2px solid tomato; */
     }
 
     .heading {
@@ -107,6 +115,10 @@
         font-family: "Lora";
     }
 
+    .left {
+        left: 0;
+    }
+
     .left_button {
         width: max-content;
         padding: 15px 40px;
@@ -118,15 +130,13 @@
 
     .right {
         width: 100%;
-        /* background-color: tomato; */
         display: flex;
         flex-direction: column;
-        /* justify-content: flex-start; */
-        align-items: center;
+        align-items: flex-start;
     }
 
     .right_main {
-        border-left: 2px solid #F4EE68;
+        /* border-right: 2px solid #F4EE68; */
         font-weight: 600;
         text-transform: uppercase;
         padding: 0 0 0 50px;

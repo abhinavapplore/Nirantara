@@ -8,6 +8,7 @@ import Values from '../components/Values/Values'
 import Testimonal from '../components/Testimonial/Testimonal'
 import Hero from '../components/Hero/Hero'
 import WhoWeAre from '@/components/WhoWeAre/WhoWeAre'
+import OurApproach from '@/components/OurApproach/OurApproach'
 
 const HomeScreen = () => {
   return (
@@ -16,9 +17,10 @@ const HomeScreen = () => {
         <Hero/>
         <WhoWeAre />
         <Vision />
+        <OurApproach />
         <Services />
         <Values />
-        <Testimonal />
+        {/* <Testimonal /> */}
         <NewsLetter />
         <Footer />
     </>

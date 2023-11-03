@@ -1,7 +1,8 @@
 .container {
     /* margin-top: 100px; */
     padding: 180px 100px 100px 100px;
-    background-color: #4D443BD1;
+    background-color: #4D443B;
+
     /* background: #4D443BD1; */
     display: flex;
     position: relative !important;

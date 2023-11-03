@@ -5,18 +5,25 @@ const Header = () => {
   return (
     <>
       <div className={styles.container}>
+
         <div className={styles.logo}>
-          <img src="./images/logo.svg" alt="" />
+          <a href="/">
+            <img src="./images/logo.svg" alt="" />
+          </a>
         </div>
+
         <div className={styles.links}>
-          <a href="#section1"><div className={styles.link}>About us</div></a>
-          <a href="#section2"><div className={styles.link}>our vision</div></a>
-          <a href="#section3"><div className={styles.link}>services</div></a>
-          <a href="#section4"><div className={styles.link}>our values</div></a>
+          <a href="#about"><div className={styles.link}>About us</div></a>
+          <a href="#vision"><div className={styles.link}>our vision</div></a>
+          <a href="#service"><div className={styles.link}>services</div></a>
+          <a href="#value"><div className={styles.link}>our values</div></a>
         </div>
-        <div className={styles.button}>
-          contact us
-        </div>
+
+        <a href="#newletter">
+          <div className={styles.button}>
+            contact us
+          </div>
+        </a>
       </div>
 
 

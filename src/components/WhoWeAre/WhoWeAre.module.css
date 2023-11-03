@@ -57,6 +57,8 @@
     font-size: 17px;
     font-family: 'Lora';
     margin-bottom: 20px;
+    color: #4D443B;
+
 }
 
 .mobile_container {
@@ -74,7 +76,7 @@
 
     .container {
         padding: 20px;
-        width: 100%;
+        width: 100% !important;
     }
 
     .mobile_container {
@@ -108,8 +110,9 @@
 
     .heading {
         text-transform: uppercase;
-        font-size: 50px;
+        font-size: 38px;
         font-weight: 900;
+        width: 100%;
         color: #4D443B;
     }
 

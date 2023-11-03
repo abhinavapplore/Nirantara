@@ -4,7 +4,7 @@ import styles from './Visionn.module.css';
 const Vision = () => {
   return (
     <>
-      <div className={styles.container} id='section2'>
+      <div className={styles.container} id='vision'>
         <div className={styles.left}>
           <div className={styles.left_main}>
             <div className={styles.heading}>Our Vision</div>
