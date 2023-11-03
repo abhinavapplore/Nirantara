@@ -81,13 +81,14 @@
     .container {
         background-position: center;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: auto;
         width: 100%;
         background-size: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        
         background: url('../../../public/images/jungle.svg');
     }
 
@@ -133,6 +134,8 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+
+        padding: 100px 0;
     }
 
     .right_main {
