@@ -19,7 +19,7 @@ const Header = () => {
           <a href="#value"><div className={styles.link}>our values</div></a>
         </div>
 
-        <a href="#newletter">
+        <a href="#newsletter">
           <div className={styles.button}>
             contact us
           </div>
@@ -32,15 +32,19 @@ const Header = () => {
 
         <div className={styles.top}>
           <div className={styles.left_mobile}>
-            <img src="./images/logo.svg" alt="" />
+            <a href="/">
+              <img src="./images/logo.svg" alt="" />
+            </a>
           </div>
-          <div className={styles.right_mobile}>
-            contact us
-          </div>
+          <a href="#newsletter">
+            <div className={styles.right_mobile}>
+              contact us
+            </div>
+          </a>
         </div>
 
         <div className={styles.bottom}>
-        <a href="#about"><div className={styles.mobile_link}>About us</div></a>
+          <a href="#about"><div className={styles.mobile_link}>About us</div></a>
           <a href="#vision"><div className={styles.mobile_link}>our vision</div></a>
           <a href="#service"><div className={styles.mobile_link}>services</div></a>
           <a href="#value"><div className={styles.mobile_link}>our values</div></a>

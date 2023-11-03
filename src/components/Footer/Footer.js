@@ -11,8 +11,12 @@ const Footer = () => {
           <img src='./images/footer_logo.svg' alt="footerLogo" />
         </div>
         <div className={styles.footer_links}>
-          <div className={styles.link}>About Us</div>
+          <a href="#about">
+            <div className={styles.link}>About Us</div>
+          </a>
+          <a href="#newsletter">
           <div className={styles.link}>Contact Us</div>
+          </a>
         </div>
       </div>
 

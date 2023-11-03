@@ -17,9 +17,11 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className={styles.left_button} id='about'>
-            LEARN MORE
-          </div>
+          <a href="#newsletter">
+            <div className={styles.left_button} id='about'>
+              LEARN MORE
+            </div>
+          </a>
         </div>
 
 

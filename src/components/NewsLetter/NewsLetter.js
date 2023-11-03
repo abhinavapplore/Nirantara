@@ -31,7 +31,7 @@ const NewsLetter = () => {
 };
 
   return (
-    <div className={styles.container} id='newletter'>
+    <div className={styles.container} id='newsletter'>
     <div className={styles.left}>
       sign up & stay informed.
     </div>
