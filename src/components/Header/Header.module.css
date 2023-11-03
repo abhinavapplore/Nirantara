@@ -106,7 +106,12 @@
         font-weight: 600;
         text-transform: uppercase;
         color: #CFCA4C;
-        font-size: 15px;
+        font-size: 14px;
+        border-radius: 2px;
+        padding: 5px 2px;
+        border: 1px solid rgba(255, 255, 0, 0.373);
+        /* padding:6px; */
+        /* background-color: rgb(56, 56, 56); */
     }
 
 }

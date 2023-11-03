@@ -53,7 +53,7 @@
 }
 
 .right_main {
-    border-left: 2px solid #F4EE68;
+    border-left: 5px solid #F4EE68;
     font-weight: 600;
     text-transform: uppercase;
     padding: 0 0 0 50px;
@@ -135,7 +135,7 @@
         flex-direction: column;
         align-items: flex-start;
 
-        padding: 100px 0;
+        padding: 100px 10px;
     }
 
     .right_main {
