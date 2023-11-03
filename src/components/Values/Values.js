@@ -4,7 +4,7 @@ import styles from './Value.module.css';
 const Values = () => {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id='section4'>
         <div className={styles.left}>
           <div className={styles.heading}>Our Values</div>
           <div className={styles.sub_heading}>

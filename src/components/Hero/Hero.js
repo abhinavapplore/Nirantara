@@ -17,7 +17,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className={styles.left_button}>
+          <div className={styles.left_button} id='section1'>
             LEARN MORE
           </div>
         </div>

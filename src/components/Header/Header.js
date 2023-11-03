@@ -9,10 +9,10 @@ const Header = () => {
           <img src="./images/logo.svg" alt="" />
         </div>
         <div className={styles.links}>
-          <div className={styles.link}>About us</div>
-          <div className={styles.link}>our vision</div>
-          <div className={styles.link}>services</div>
-          <div className={styles.link}>our values</div>
+          <a href="#section1"><div className={styles.link}>About us</div></a>
+          <a href="#section2"><div className={styles.link}>our vision</div></a>
+          <a href="#section3"><div className={styles.link}>services</div></a>
+          <a href="#section4"><div className={styles.link}>our values</div></a>
         </div>
         <div className={styles.button}>
           contact us
