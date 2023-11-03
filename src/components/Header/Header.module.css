@@ -62,13 +62,13 @@
         position: fixed;
         background-color: rgba(0, 0, 0, 0.451);
         width: 100%;
-        padding: 20px 0;
+        padding: 0px 0;
         z-index: 9999;
     }
 
     .top {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .left_mobile {
@@ -86,9 +86,10 @@
         justify-content: center;
         align-items: center;
         background-color: #006642;
-        padding: 15px 25px;
+        padding: 15px 20px;
         font-weight: 600;
         color: white;
+        
         text-transform: uppercase;
     }
 

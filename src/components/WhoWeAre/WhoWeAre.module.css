@@ -75,7 +75,7 @@
     }
 
     .container {
-        padding: 20px;
+        padding: 0px;
         width: 100% !important;
     }
 
@@ -104,7 +104,7 @@
     }
 
     .right_main {
-        padding: 0 30px;
+        padding: 0 20px;
         border-right: 5px solid darkgreen;
     }
 
