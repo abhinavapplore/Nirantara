@@ -1,0 +1,83 @@
+.container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 80px 0;
+    justify-content: center;
+    background-color: #006642;
+}
+
+.left {
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+.right {
+    width: 100%;
+}
+
+.right input {
+    width: 60%;
+    font-size: 17px !important;
+    font-family: "Lora";
+    padding: 10px 10px 10px 10px;
+    border: 1px solid yellow;
+    outline: none;
+    background-color: transparent;
+    color: white !important;
+    margin-left: 5%;
+}
+
+/* input::placeholder {
+    color: white;
+} */
+
+.right button {
+    padding: 10px 30px;
+    font-family: "Lora";
+    color: #006642;
+    font-size: 17px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+
+@media (max-width:600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .left {
+        width: 100%;
+        padding: 0 20px;
+        text-align: left;
+        font-size: 45px;
+    }
+
+    .right {
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+    .right input {
+        width: 70%;
+        font-size: 17px !important;
+        padding: 10px 10px 10px 10px;
+        margin-left: 0;
+    }
+
+    .right button {
+        width: 30%;
+        padding: 10px;
+        font-family: "Lora";
+        color: #006642;
+        font-size: 17px;
+        border: 1px solid yellow;
+        background-color: yellow;
+    }
+}
