@@ -9,8 +9,8 @@ import {AiOutlineLoading3Quarters} from 'react-icons/ai'
 const NewsLetter = () => {
   const [email, setEmail] = useState('');
   const [loading, setLoading] = useState(false);
-  const backendUrl = 'https://nirantari-backend.vercel.app/subscriber'
-  // const backendUrl = 'http://localhost:9000/subscriber'  
+  // const backendUrl = 'https://nirantari-backend.vercel.app/subscriber'
+  const backendUrl = 'https://nirantara-api.applore.in/subscriber'  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
