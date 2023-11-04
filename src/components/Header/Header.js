@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Header.module.css'
+import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -17,6 +18,11 @@ const Header = () => {
           <a href="#vision"><div className={styles.link}>our vision</div></a>
           <a href="#service"><div className={styles.link}>services</div></a>
           <a href="#value"><div className={styles.link}>our values</div></a>
+
+
+          <Link href='/brochure'>
+            <button>Download</button>
+          </Link>
         </div>
 
         <a href="#newsletter">
