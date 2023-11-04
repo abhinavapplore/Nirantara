@@ -44,7 +44,7 @@ const Header = () => {
         </div>
 
         <div className={styles.bottom}>
-          <a href="#about"><div className={styles.mobile_link}>About us</div></a>
+          <a href="#aboutmobile"><div className={styles.mobile_link}>About us</div></a>
           <a href="#vision"><div className={styles.mobile_link}>our vision</div></a>
           <a href="#service"><div className={styles.mobile_link}>services</div></a>
           <a href="#value"><div className={styles.mobile_link}>our values</div></a>

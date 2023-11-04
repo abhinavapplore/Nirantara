@@ -3,7 +3,9 @@
     position: fixed;
     top: 0;
     z-index: 999;
-    background-color: rgba(0, 0, 0, 0.642);
+    /* background-color: rgba(0, 0, 0, 0.642); */
+    background-color: #15170D;
+
     display: flex;
     justify-content: space-evenly;
     text-transform: uppercase;
@@ -60,7 +62,7 @@
     .mobile_container {
         display: block;
         position: fixed;
-        background-color: rgba(0, 0, 0, 0.451);
+        background-color: #15170D;
         width: 100%;
         padding: 0px 0;
         z-index: 9999;
@@ -68,6 +70,7 @@
 
     .top {
         display: flex;
+        align-items: center;
         justify-content: space-around;
     }
 
@@ -86,10 +89,12 @@
         justify-content: center;
         align-items: center;
         background-color: #006642;
-        padding: 15px 20px;
+        
+        padding: 5px 10px;
         font-weight: 600;
         color: white;
-        
+        font-size: 14px;
+        /* background-color: red; */
         text-transform: uppercase;
     }
 
