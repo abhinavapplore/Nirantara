@@ -16,13 +16,18 @@ const Header = () => {
         <div className={styles.links}>
           <a href="#about"><div className={styles.link}>About us</div></a>
           <a href="#vision"><div className={styles.link}>our vision</div></a>
+
+          <div className={styles.link}>
+            <Link href='/brochure'>
+              <button>BROCHURE</button>
+            </Link>
+          </div>
+
           <a href="#service"><div className={styles.link}>services</div></a>
           <a href="#value"><div className={styles.link}>our values</div></a>
 
 
-          <Link href='/brochure'>
-            <button>Download</button>
-          </Link>
+
         </div>
 
         <a href="#newsletter">
