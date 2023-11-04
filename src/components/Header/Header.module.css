@@ -64,7 +64,7 @@
         position: fixed;
         background-color: #15170D;
         width: 100%;
-        padding: 0px 0;
+        padding: 20px 0;
         z-index: 9999;
     }
 
@@ -89,7 +89,7 @@
         justify-content: center;
         align-items: center;
         background-color: #006642;
-        
+
         padding: 5px 10px;
         font-weight: 600;
         color: white;
@@ -101,20 +101,25 @@
     .bottom {
         /* background-color: red; */
         display: flex;
-        padding: 20px 0;
+        flex-direction: column;
+        padding: 10px 0;
         justify-content: space-evenly;
+        text-align: center;
+        margin: auto;
+        height: 80vh;
     }
 
     .mobile_link {
-        width: max-content;
+        width: 90%;
+        margin: auto;
         white-space: nowrap;
         font-weight: 600;
         text-transform: uppercase;
         color: #CFCA4C;
-        font-size: 14px;
+        font-size: 24px;
         border-radius: 2px;
-        padding: 5px 2px;
-        border: 1px solid rgba(255, 255, 0, 0.373);
+        padding: 20px;
+        /* border: 1px solid rgba(255, 255, 0, 0.373); */
         /* padding:6px; */
         /* background-color: rgb(56, 56, 56); */
     }

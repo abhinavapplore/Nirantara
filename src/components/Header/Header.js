@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Header.module.css'
 import Link from 'next/link'
+import Hamburger from 'hamburger-react'
 
 const Header = () => {
+
+  const [open, setOpen] = useState(false);
+  const toggleMobileMenu = () => {
+    setOpen(!open); // Toggle the state when the hamburger icon is clicked
+  };
+
   return (
     <>
       <div className={styles.container}>
@@ -17,6 +24,7 @@ const Header = () => {
           <a href="#about"><div className={styles.link}>About us</div></a>
           <a href="#vision"><div className={styles.link}>our vision</div></a>
 
+          {/* discuss with vaibhav fuke need for ngnix */}
           <div className={styles.link}>
             <Link href='/brochure'>
               <button>BROCHURE</button>
@@ -47,19 +55,24 @@ const Header = () => {
               <img src="./images/logo.svg" alt="" />
             </a>
           </div>
-          <a href="#newsletter">
+          <button onClick={toggleMobileMenu}>
             <div className={styles.right_mobile}>
-              contact us
+              <Hamburger toggled={open} toggle={setOpen} />
             </div>
-          </a>
+          </button>
         </div>
+        {
+          open &&
+          <>
+            <div div className={styles.bottom} onClick={toggleMobileMenu}>
+              <a href="#aboutmobile"><div className={styles.mobile_link}>About us</div></a>
+              <a href="#vision"><div className={styles.mobile_link}>our vision</div></a>
+              <a href="#service"><div className={styles.mobile_link}>services</div></a>
+              <a href="#value"><div className={styles.mobile_link}>our values</div></a>
+            </div>
+          </>
 
-        <div className={styles.bottom}>
-          <a href="#aboutmobile"><div className={styles.mobile_link}>About us</div></a>
-          <a href="#vision"><div className={styles.mobile_link}>our vision</div></a>
-          <a href="#service"><div className={styles.mobile_link}>services</div></a>
-          <a href="#value"><div className={styles.mobile_link}>our values</div></a>
-        </div>
+        }
       </div>
     </>
   )
