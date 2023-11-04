@@ -67,6 +67,11 @@ const Header = () => {
             <div div className={styles.bottom} onClick={toggleMobileMenu}>
               <a href="#aboutmobile"><div className={styles.mobile_link}>About us</div></a>
               <a href="#vision"><div className={styles.mobile_link}>our vision</div></a>
+              <Link href='/brochure'>
+                <div className={styles.mobile_link}>
+                  <button>BROCHURE</button>
+                </div>
+              </Link>
               <a href="#service"><div className={styles.mobile_link}>services</div></a>
               <a href="#value"><div className={styles.mobile_link}>our values</div></a>
               <a href="#newsletter"><div className={styles.mobile_link}>Contact Us</div></a>
