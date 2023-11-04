@@ -28,10 +28,8 @@ const WhoWeAre = () => {
                     <div className={styles.left} >
                         <img src="./images/indianhand.svg" alt="" />
                     </div>
-                    <div id='aboutmobile' style={{
                     
-                    }}></div>
-                    <div className={styles.right} >
+                    <div className={styles.right} id='aboutmobile'>
                         <div className={styles.right_main} >
                             <div className={styles.heading}>INTRODUCTION</div>
                             <div className={styles.sub_heading}>

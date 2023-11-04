@@ -103,6 +103,9 @@
         padding: 10px 0;
         padding-right: 10px;
     }
+    .mobile_container .right{
+        padding: 100px 10px 100px 0 ;
+    }
 
     .right_main {
         padding: 0 20px;
@@ -114,6 +117,7 @@
         font-size: 38px;
         font-weight: 900;
         width: 100%;
+        padding: 20px 0;
         color: #4D443B;
     }
 
