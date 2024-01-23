@@ -43,9 +43,9 @@
 
 @media (max-width:600px) {
     .container {
-        background-color: #4D443B;
+        background-color: #fff;
         padding: 50px 30px;
-        color: white;
+        color: #4D443B;
         text-align: left;
     }
 

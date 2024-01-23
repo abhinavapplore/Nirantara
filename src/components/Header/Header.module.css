@@ -65,7 +65,7 @@
     .mobile_container {
         display: block;
         position: fixed;
-        background-color: #15170D;
+        background-color: #fff;
         width: 100%;
         padding: 20px 0;
         z-index: 9999;
