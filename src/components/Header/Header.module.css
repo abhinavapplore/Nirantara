@@ -21,6 +21,9 @@
     /* padding: 10px; */
     /* margin: auto; */
 }
+.logo svg{
+    width: 100%;
+}
 
 .logo img {
     width: 70%;
@@ -33,7 +36,7 @@
     justify-content: center;
     color: #4D443B;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .link {
