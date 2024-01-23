@@ -4,7 +4,7 @@
     top: 0;
     z-index: 999;
     /* background-color: rgba(0, 0, 0, 0.642); */
-    background-color: #15170D;
+    background-color: #FFF;
 
     display: flex;
     justify-content: space-evenly;
@@ -31,7 +31,7 @@
     width: 50%;
     display: flex;
     justify-content: center;
-    color: #CFCA4C;
+    color: #4D443B;
     font-weight: 600;
     font-size: 15px;
 }

@@ -3,6 +3,9 @@ import styles from './Header.module.css'
 import Link from 'next/link'
 import Hamburger from 'hamburger-react'
 
+
+
+
 const Header = () => {
 
   const [open, setOpen] = useState(false);
@@ -16,7 +19,7 @@ const Header = () => {
 
         <div className={styles.logo}>
           <a href="/">
-            <img src="./images/logo.svg" alt="" />
+          <img src="/nirantraLogo.svg" alt="logo" />
           </a>
         </div>
 

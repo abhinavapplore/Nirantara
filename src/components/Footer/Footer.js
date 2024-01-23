@@ -8,7 +8,7 @@ const Footer = () => {
       {/* TOP */}
       <div className={styles.left}>
         <div className={styles.footer_logo}>
-          <img src='./images/footer_logo.svg' alt="footerLogo" />
+        <img src="/nirantraLogo.svg" alt="nirantara logo" />
         </div>
         <div className={styles.footer_links}>
           <a href="#about">
