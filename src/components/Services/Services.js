@@ -46,7 +46,7 @@ const Services = () => {
               <div className={styles.content_icon}>
                 <img src="./images/foot_icon.svg" alt="" />
               </div>
-              <div className={styles.content_heading}>NEUTRAILTY AND ESG ROADMAPS</div>
+              <div className={styles.content_heading}>NEUTRALITY AND ESG ROADMAPS</div>
               {/* <div className={styles.content_sub_heading}>description come here about</div> */}
             </div>
           </div>
