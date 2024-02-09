@@ -15,7 +15,7 @@ const Services = () => {
               <div className={styles.content_icon}>
                 <img src="./images/plant_icon.svg" alt="" />
               </div>
-              <div className={styles.content_heading}>Strengthening GOVERNANCE MECHANIMS</div>
+              <div className={styles.content_heading}>Strengthening GOVERNANCE MECHANISM</div>
               {/* <div className={styles.content_sub_heading}>description come here about</div> */}
             </div>
           </div>
