@@ -20,13 +20,13 @@ const page = () => {
                     showArrows
                 >
                     <div className={styles.slide}>
-                        <img src="./images/bg-1.jpg" alt="" />
+                        <img src="./images/bg-01.png" alt="" />
                     </div>
                     <div className={styles.slide}>
-                        <img src="./images/bg-2.jpg" alt="" />
+                        <img src="./images/bg-02.png" alt="" />
                     </div>
                     <div className={styles.slide}>
-                        <img src="./images/bg-3.jpg" alt="" />
+                        <img src="./images/bg-03.png" alt="" />
                     </div>
                 </Carousel>
 
@@ -37,6 +37,7 @@ const page = () => {
                 </a>
             </div>
         </>
+
     )
 }
 
